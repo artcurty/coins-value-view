@@ -5,9 +5,7 @@ import { Body } from "../Body/index"
 function App() {
   return (
     <div className="App">
-      <Body/>
-      <Body/>
-      
+      <Body/>      
     </div>
   );
 }
