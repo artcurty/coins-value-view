@@ -1,0 +1,35 @@
+.Coin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;  
+}
+
+.Coin.down {
+  color: red;
+}
+
+.Coin.up {
+  color: greenyellow
+}
+
+.Coin .Coin-name {
+  padding-bottom: 6px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+}
+
+.Card-coin {
+  width: 200px;
+  height: 60px;
+  margin: 12px;
+
+  display: flex;
+  text-align: start;
+  align-items: center;
+  align-content: space-between;
+  
+  background-color: #001c3a;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(0,28,58, 0.15);
+}
